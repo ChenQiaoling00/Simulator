@@ -1,0 +1,106 @@
+.....
+--------------------- END -----------------------
+Max TGS: -363.01660413332985
+Top0 Solution:  world_size: 128 tgs: 805.0546923583264, total_latency:40702.825 ms global bsz: 4194304
+ activation ckpt: 0 seq_len: 131072 micro_bsz: 1 micro_num: 1,
+ modelsize: 13.74462464, algo_type: isp, pp_size: 1, sp_size: 4, wp_size: 1, zp_size: 1,
+ one micro step fwd_bwd_cost: 40645.62 ms, all_fwd_bwd_cost: 40645.62 ms, overlap_latency: 238.33 ms
+ COMP: comp_wp: 238.33 ms, comp_attn: 765.32 ms,
+ COMM: pp_comm_cost: 0.00 ms, zp_comm_cost: 20.43 ms, one layer wp_comm_cost: 0.00 ms, one layer sp_comm_cost: 12.50 ms, wdp_comm_cost: 36.77 ms
+ total mem_cost: 446.96 GB
+ Not evictable MEM: os_mm_cost: 142.52 GB, p_g_mm_cost: 47.75 GB, isp_mem_pool: 2.36 GB, sincos_cache_mm: 1.25 GB,pp_p2p_buffer: 0.00 GB
+ Activation MEM: total activation: 253.08 GB, blocks_activation: 245.83 GB, norm_activation: 0.62 GB,backward_mem_peak: 3.24 GB
+ head_input_activation: 0.31 GB, head_output_activation: 3.07 GB, block_output_activation(enable ckpt): 0.00 GB
+
+Top1 Solution:  world_size: 128 tgs: 803.9022621874915, total_latency:40761.174 ms global bsz: 4194304
+ activation ckpt: 0 seq_len: 131072 micro_bsz: 1 micro_num: 1,
+ modelsize: 13.74462464, algo_type: isp, pp_size: 1, sp_size: 4, wp_size: 1, zp_size: 2,
+ one micro step fwd_bwd_cost: 40645.62 ms, all_fwd_bwd_cost: 40645.62 ms, overlap_latency: 238.33 ms
+ COMP: comp_wp: 238.33 ms, comp_attn: 765.32 ms,
+ COMM: pp_comm_cost: 0.00 ms, zp_comm_cost: 78.78 ms, one layer wp_comm_cost: 0.00 ms, one layer sp_comm_cost: 12.50 ms, wdp_comm_cost: 36.77 ms
+ total mem_cost: 376.06 GB
+ Not evictable MEM: os_mm_cost: 71.62 GB, p_g_mm_cost: 47.75 GB, isp_mem_pool: 2.36 GB, sincos_cache_mm: 1.25 GB,pp_p2p_buffer: 0.00 GB
+ Activation MEM: total activation: 253.08 GB, blocks_activation: 245.83 GB, norm_activation: 0.62 GB,backward_mem_peak: 3.24 GB
+ head_input_activation: 0.31 GB, head_output_activation: 3.07 GB, block_output_activation(enable ckpt): 0.00 GB
+
+Top2 Solution:  world_size: 128 tgs: 803.6821187336249, total_latency:40772.339 ms global bsz: 4194304
+ activation ckpt: 0 seq_len: 131072 micro_bsz: 1 micro_num: 1,
+ modelsize: 13.74462464, algo_type: isp, pp_size: 1, sp_size: 4, wp_size: 2, zp_size: 1,
+ one micro step fwd_bwd_cost: 40692.89 ms, all_fwd_bwd_cost: 40692.89 ms, overlap_latency: 239.51 ms
+ COMP: comp_wp: 238.33 ms, comp_attn: 765.32 ms,
+ COMM: pp_comm_cost: 0.00 ms, zp_comm_cost: 20.43 ms, one layer wp_comm_cost: 5.91 ms, one layer sp_comm_cost: 12.50 ms, wdp_comm_cost: 59.02 ms
+ total mem_cost: 352.43 GB
+ Not evictable MEM: os_mm_cost: 71.62 GB, p_g_mm_cost: 24.11 GB, isp_mem_pool: 2.36 GB, sincos_cache_mm: 1.25 GB,pp_p2p_buffer: 0.00 GB
+ Activation MEM: total activation: 253.08 GB, blocks_activation: 245.83 GB, norm_activation: 0.62 GB,backward_mem_peak: 3.24 GB
+ head_input_activation: 0.31 GB, head_output_activation: 3.07 GB, block_output_activation(enable ckpt): 0.00 GB
+
+Top3 Solution:  world_size: 128 tgs: 803.3085624050872, total_latency:40791.299 ms global bsz: 4194304
+ activation ckpt: 0 seq_len: 131072 micro_bsz: 1 micro_num: 1,
+ modelsize: 13.74462464, algo_type: isp, pp_size: 1, sp_size: 4, wp_size: 2, zp_size: 2,
+ one micro step fwd_bwd_cost: 40692.89 ms, all_fwd_bwd_cost: 40692.89 ms, overlap_latency: 239.51 ms
+ COMP: comp_wp: 238.33 ms, comp_attn: 765.32 ms,
+ COMM: pp_comm_cost: 0.00 ms, zp_comm_cost: 39.39 ms, one layer wp_comm_cost: 5.91 ms, one layer sp_comm_cost: 12.50 ms, wdp_comm_cost: 59.02 ms
+ total mem_cost: 316.98 GB
+ Not evictable MEM: os_mm_cost: 36.17 GB, p_g_mm_cost: 24.11 GB, isp_mem_pool: 2.36 GB, sincos_cache_mm: 1.25 GB,pp_p2p_buffer: 0.00 GB
+ Activation MEM: total activation: 253.08 GB, blocks_activation: 245.83 GB, norm_activation: 0.62 GB,backward_mem_peak: 3.24 GB
+ head_input_activation: 0.31 GB, head_output_activation: 3.07 GB, block_output_activation(enable ckpt): 0.00 GB
+
+Top4 Solution:  world_size: 128 tgs: 803.1261664991282, total_latency:40800.563 ms global bsz: 4194304
+ activation ckpt: 0 seq_len: 131072 micro_bsz: 1 micro_num: 1,
+ modelsize: 13.74462464, algo_type: isp, pp_size: 1, sp_size: 4, wp_size: 1, zp_size: 4,
+ one micro step fwd_bwd_cost: 40645.62 ms, all_fwd_bwd_cost: 40645.62 ms, overlap_latency: 238.33 ms
+ COMP: comp_wp: 238.33 ms, comp_attn: 765.32 ms,
+ COMM: pp_comm_cost: 0.00 ms, zp_comm_cost: 118.17 ms, one layer wp_comm_cost: 0.00 ms, one layer sp_comm_cost: 12.50 ms, wdp_comm_cost: 36.77 ms
+ total mem_cost: 340.61 GB
+ Not evictable MEM: os_mm_cost: 36.17 GB, p_g_mm_cost: 47.75 GB, isp_mem_pool: 2.36 GB, sincos_cache_mm: 1.25 GB,pp_p2p_buffer: 0.00 GB
+ Activation MEM: total activation: 253.08 GB, blocks_activation: 245.83 GB, norm_activation: 0.62 GB,backward_mem_peak: 3.24 GB
+ head_input_activation: 0.31 GB, head_output_activation: 3.07 GB, block_output_activation(enable ckpt): 0.00 GB
+
+Top5 Solution:  world_size: 128 tgs: 802.9209002485084, total_latency:40810.994 ms global bsz: 4194304
+ activation ckpt: 0 seq_len: 131072 micro_bsz: 1 micro_num: 1,
+ modelsize: 13.74462464, algo_type: isp, pp_size: 1, sp_size: 4, wp_size: 2, zp_size: 4,
+ one micro step fwd_bwd_cost: 40692.89 ms, all_fwd_bwd_cost: 40692.89 ms, overlap_latency: 239.51 ms
+ COMP: comp_wp: 238.33 ms, comp_attn: 765.32 ms,
+ COMM: pp_comm_cost: 0.00 ms, zp_comm_cost: 59.08 ms, one layer wp_comm_cost: 5.91 ms, one layer sp_comm_cost: 12.50 ms, wdp_comm_cost: 59.02 ms
+ total mem_cost: 299.25 GB
+ Not evictable MEM: os_mm_cost: 18.44 GB, p_g_mm_cost: 24.11 GB, isp_mem_pool: 2.36 GB, sincos_cache_mm: 1.25 GB,pp_p2p_buffer: 0.00 GB
+ Activation MEM: total activation: 253.08 GB, blocks_activation: 245.83 GB, norm_activation: 0.62 GB,backward_mem_peak: 3.24 GB
+ head_input_activation: 0.31 GB, head_output_activation: 3.07 GB, block_output_activation(enable ckpt): 0.00 GB
+
+--------------------- MSP best solution -----------------------
+self.msp_min_solu :  world_size: 128 tgs: 370.1936137132104, total_latency:88515.844 ms global bsz: 4194304
+ activation ckpt: 1 seq_len: 131072 micro_bsz: 2 micro_num: 2,
+ modelsize: 13.74462464, algo_type: msp, pp_size: 2, sp_size: 8, wp_size: 1, zp_size: 8,
+ one micro step fwd_bwd_cost: 29356.02 ms, all_fwd_bwd_cost: 58712.05 ms, overlap_latency: 317.77 ms
+ COMP: comp_wp: 317.77 ms, comp_attn: 975.03 ms,
+ COMM: pp_comm_cost: 29481.02 ms, zp_comm_cost: 107.59 ms, one layer wp_comm_cost: 0.00 ms, one layer sp_comm_cost: 175.00 ms, wdp_comm_cost: 215.18 ms
+ total mem_cost: 27.04 GB
+ Not evictable MEM: os_mm_cost: 1.15 GB, p_g_mm_cost: 3.07 GB, isp_mem_pool: 0.00 GB, sincos_cache_mm: 0.62 GB,pp_p2p_buffer: 0.31 GB
+ Activation MEM: total activation: 21.88 GB, blocks_activation: 0.00 GB, norm_activation: 0.62 GB,backward_mem_peak: 5.68 GB
+ head_input_activation: 0.00 GB, head_output_activation: 3.07 GB, block_output_activation(enable ckpt): 12.50 GB
+
+--------------------- FSP best solution -----------------------
+self.fsp_min_solu :  world_size: 128 tgs: 363.01660413332985, total_latency:90265.844 ms global bsz: 4194304
+ activation ckpt: 1 seq_len: 131072 micro_bsz: 2 micro_num: 2,
+ modelsize: 13.74462464, algo_type: fsp, pp_size: 2, sp_size: 8, wp_size: 1, zp_size: 8,
+ one micro step fwd_bwd_cost: 29939.36 ms, all_fwd_bwd_cost: 59878.71 ms, overlap_latency: 317.77 ms
+ COMP: comp_wp: 317.77 ms, comp_attn: 975.03 ms,
+ COMM: pp_comm_cost: 30064.36 ms, zp_comm_cost: 107.59 ms, one layer wp_comm_cost: 0.00 ms, one layer sp_comm_cost: 204.17 ms, wdp_comm_cost: 215.18 ms
+ total mem_cost: 27.35 GB
+ Not evictable MEM: os_mm_cost: 1.15 GB, p_g_mm_cost: 3.07 GB, isp_mem_pool: 0.00 GB, sincos_cache_mm: 0.62 GB,pp_p2p_buffer: 0.31 GB
+ Activation MEM: total activation: 22.19 GB, blocks_activation: 0.00 GB, norm_activation: 0.62 GB,backward_mem_peak: 5.68 GB
+ head_input_activation: 0.31 GB, head_output_activation: 3.07 GB, block_output_activation(enable ckpt): 12.50 GB
+
+--------------------- ISP best solution -----------------------
+self.isp_min_solu :  world_size: 128 tgs: 412.97451846405, total_latency:79346.300 ms global bsz: 4194304
+ activation ckpt: 1 seq_len: 131072 micro_bsz: 2 micro_num: 2,
+ modelsize: 13.74462464, algo_type: isp, pp_size: 2, sp_size: 8, wp_size: 16, zp_size: 4,
+ one micro step fwd_bwd_cost: 26359.99 ms, all_fwd_bwd_cost: 52719.98 ms, overlap_latency: 321.09 ms
+ COMP: comp_wp: 317.77 ms, comp_attn: 975.03 ms,
+ COMM: pp_comm_cost: 26484.99 ms, zp_comm_cost: 44.31 ms, one layer wp_comm_cost: 16.62 ms, one layer sp_comm_cost: 21.88 ms, wdp_comm_cost: 97.01 ms
+ total mem_cost: 28.38 GB
+ Not evictable MEM: os_mm_cost: 1.29 GB, p_g_mm_cost: 1.60 GB, isp_mem_pool: 2.36 GB, sincos_cache_mm: 0.62 GB,pp_p2p_buffer: 0.31 GB
+ Activation MEM: total activation: 22.19 GB, blocks_activation: 0.00 GB, norm_activation: 0.62 GB,backward_mem_peak: 5.68 GB
+ head_input_activation: 0.31 GB, head_output_activation: 3.07 GB, block_output_activation(enable ckpt): 12.50 GB
+
+{'algo_type': 'fsp', 'seq_len': 131072, 'micro_num': 2, 'micro_bsz': 2, 'pp_size': 2, 'tp_size': 8, 'wp_size': 1, 'zp_size': 8, 'activation_ckpt': True}
