@@ -1,6 +1,6 @@
 # InternEvo Simulator
 ## Overview
-simulator description in paper.
+Simulator description in [InternEvo paper]("https://arxiv.org/abs/2401.09149"):
 
 ## Usage
 python main.py
