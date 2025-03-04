@@ -1,0 +1,16 @@
+------------------- Begin: world_size: 32, pp:1, sp:1, micro_bsz:1, micro_num:1, algo_type:isp, wp:4, zp:2 ckpt:0 -------------------
+
+448:
+COMM: pp_comm_cost: 0.00 ms, zp_comm_cost: 19.69 ms, one layer wp_comm_cost: 8.86 ms, one layer sp_comm_cost: 0.00 ms, wdp_comm_cost: 0.00 ms 
+
+
+
+COMM: pp_comm_cost: 0.00 ms, zp_comm_cost: 10.21 ms, one layer wp_comm_cost: 10.34 ms, one layer sp_comm_cost: 0.00 ms, wdp_comm_cost: 0.00 ms 
+
+
+448:
+ COMM: pp_comm_cost: 0.00 ms, zp_comm_cost: 19.69 ms, one layer wp_comm_cost: 8.86 ms, one layer sp_comm_cost: 0.00 ms, wdp_comm_cost: 84.02 ms
+
+ 
+888: 
+ COMM: pp_comm_cost: 0.00 ms, zp_comm_cost: 10.21 ms, one layer wp_comm_cost: 10.34 ms, one layer sp_comm_cost: 0.00 ms, wdp_comm_cost: 134.93 ms 
